@@ -1,7 +1,8 @@
 print "Mary had a little lamb."
 print "Its fleece was white as %s" % 'snow'
-print "And everywhere that MAry went."
+print "And everywhere that Mary went."
 print "." * 10 #What'd that do???
+#AHA!! It printed out 10x . CLEVER!
 
 end1 = "C"
 end2 = "h"
