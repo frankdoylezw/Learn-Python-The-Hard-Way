@@ -2,7 +2,7 @@
 from sys import argv
 
 SCRIPT, USER_NAME = argv
-PROMPT = '>> '
+PROMPT = '<@> '
 
 print "Hi %s, I'm the %s script." % (USER_NAME, SCRIPT)
 print "I'd like to ask you a few questions."
