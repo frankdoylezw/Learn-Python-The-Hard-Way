@@ -1,9 +1,9 @@
 
 #Here we're importing the argv module
-#from sys import argv
+from sys import argv
 
 #Specifying the variables that comprise argv
-#SCRIPT, FILENAME = argv
+SCRIPT, FILENAME = argv
 
 FILENAME = raw_input("Enter the name of the file you are trying to enter: ")
 
