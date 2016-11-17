@@ -1,8 +1,8 @@
 '''This is EX14's exercise file'''
 from sys import argv
 
-SCRIPT, USER_NAME2 = argv
-PROMPT = '>> '
+SCRIPT = argv
+PROMPT = '<--->>> '
 
 print "Hello, what is your name, please?"
 USER_NAME1 = raw_input(PROMPT)
@@ -29,5 +29,5 @@ What's more, you have a %r computer, and you like to eat %r. Nice!
 print """
 What's also interesting is that I can output all of the variables one
 after the other, in sequence. See?
-%r, %r, %r, %r, %r, %r
-""" % (USER_NAME1, USER_NAME2, LIKES, LIVES, COMPUTER, MEAL)
+%r, %r, %r, %r, %r
+""" % (USER_NAME1, LIKES, LIVES, COMPUTER, MEAL)
