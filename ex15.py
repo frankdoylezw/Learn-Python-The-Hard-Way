@@ -1,13 +1,13 @@
-
-#Here we're importing the argv module
+"""Here we're importing the argv module
+"""
 from sys import argv
 
 #Specifying the variables that comprise argv
-SCRIPT, FILENAME = argv
+SCRIPT = argv
 
 FILENAME = raw_input("Enter the name of the file you are trying to enter: ")
 
-"""Here we're using the open command, passing in the parameter of 
+"""Here we're using the open command, passing in the parameter of
 FILENAME, and calling it TXT
 """
 TXT = open(FILENAME)
@@ -25,7 +25,5 @@ FILE_AGAIN = raw_input("> ")
 TXT_AGAIN = open(FILE_AGAIN)
 
 print TXT_AGAIN.read()
-
-TXT_AGAIN.close
-TXT.close
-
+TXT_AGAIN.close()
+TXT.close()
