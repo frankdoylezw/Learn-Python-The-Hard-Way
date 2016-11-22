@@ -27,7 +27,7 @@ print_all(CURRENT_FILE)
 print "Now let's rewind, kind of like a tape: \n"
 rewind(CURRENT_FILE)
 
-print "Let's print three lines: \n"
+print "Let's print three lines, OK?: \n"
 
 CURRENT_LINE = 1
 print_a_line(CURRENT_LINE, CURRENT_FILE)
