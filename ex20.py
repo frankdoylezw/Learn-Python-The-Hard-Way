@@ -4,7 +4,7 @@ import os
 os.system('clear')
 
 #script, INPUT_FILE = argv
-INPUT_FILE = raw_input("What is the name of your text file? ")
+INPUT_FILE = raw_input("What is the name of your text file? (HINT: It's 'TEST.txt', probably): ")
 def print_all(F):
     """This function reads the entire file."""
     print F.read()
