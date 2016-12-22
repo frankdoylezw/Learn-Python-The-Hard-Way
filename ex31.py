@@ -1,8 +1,13 @@
 #!/usr/bin/env python
 
 """Exercise 31. Nested IF statements"""
+import webbrowser
 import sys
 from os import system
+import os
+import time
+
+
 system('clear')
 
 def main():
@@ -69,8 +74,9 @@ print "Game Over. Do you want to play again? (y/n)"
 AGAIN = raw_input("> ")
 
 if AGAIN == "y":
-    import os
     os.execv(sys.executable, ['python'] + sys.argv)
 
 else:
     print "Goodbye, Sucker."
+    time.sleep(2)
+    webbrowser.open_new('https://thesuperjesus.files.wordpress.com/2008/04/fail.jpg')
