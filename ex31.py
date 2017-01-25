@@ -78,5 +78,5 @@ if AGAIN == "y":
 
 else:
     print "Goodbye, Sucker."
-    time.sleep(2)
+    time.sleep(1)
     webbrowser.open_new('https://thesuperjesus.files.wordpress.com/2008/04/fail.jpg')
