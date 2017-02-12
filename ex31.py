@@ -11,7 +11,8 @@ import time
 system('clear')
 
 def main():
-    print "Enter your name: "
+    print "Whaddup, bro?"
+    print "Enter your name, mofo: "
     NAME = raw_input("> ")
     print "Welcome " + NAME + ", nice to have you round these parts."
 
